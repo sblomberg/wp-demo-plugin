@@ -3,7 +3,7 @@
 Plugin Name: Demonstration WordPress Plugin
 Plugin URI:
 Description:
-Version: 1.0.1
+Version: 1.0.2
 Author: sblomberg
 Author URI:
 License: MIT
@@ -14,5 +14,5 @@ GitHub Plugin URI: sblomberg/wp-demo-plugin
 add_filter( 'admin_footer_text', 'wp_demo_plugin_custom_footer_text' );
 
 function wp_demo_plugin_custom_footer_text( $text ) {
-	return 'WP demo plugin v1.0.1 installed.';
+	return 'WP demo plugin v1.0.2 installed.';
 }
